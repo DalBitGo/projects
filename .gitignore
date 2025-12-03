@@ -1,0 +1,7 @@
+
+# Sensitive files
+client_secrets.json
+tokens/
+*.token.json
+.env
+credentials.json

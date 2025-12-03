@@ -1,0 +1,38 @@
+# Minimal 스타일 템플릿
+name: "Minimal Template"
+description: "미니멀한 스타일 (작은 글씨, 좁은 간격)"
+
+playback:
+  order: "reverse"
+  clip_duration: 6
+
+fonts:
+  main: "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc"
+  title_size: 40
+  subtitle_size: 40
+  ranking_number_size: 50
+  ranking_title_size: 40
+
+colors:
+  rank1: "#FFD700"
+  rank2: "white"
+  rank3: "white"
+  rank4: "white"
+  rank5: "white"
+  title: "white"
+  subtitle: "yellow"
+  border: "black"
+
+positions:
+  title_x: 30
+  title_y: 20
+  subtitle_x: 30
+  subtitle_y: 70
+  ranking_x: 20
+  ranking_title_x: 100
+  ranking_start_y: 150
+  ranking_gap: 70
+
+style:
+  border_width: 2
+  text_shadow: true

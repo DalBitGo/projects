@@ -1,0 +1,38 @@
+# Modern 스타일 템플릿
+name: "Modern Template"
+description: "모던한 스타일의 템플릿 (큰 글씨, 넓은 간격)"
+
+playback:
+  order: "reverse"
+  clip_duration: 8
+
+fonts:
+  main: "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc"
+  title_size: 60
+  subtitle_size: 60
+  ranking_number_size: 80
+  ranking_title_size: 60
+
+colors:
+  rank1: "yellow"
+  rank2: "#C0C0C0"  # 은색
+  rank3: "#CD7F32"  # 동색
+  rank4: "cyan"
+  rank5: "magenta"
+  title: "white"
+  subtitle: "yellow"
+  border: "black"
+
+positions:
+  title_x: 50
+  title_y: 50
+  subtitle_x: 50
+  subtitle_y: 130
+  ranking_x: 40
+  ranking_title_x: 150
+  ranking_start_y: 250
+  ranking_gap: 110
+
+style:
+  border_width: 4
+  text_shadow: true

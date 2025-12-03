@@ -1,0 +1,46 @@
+name: "Modern"
+aspect_ratio: "9:16"
+
+colors:
+  gold: "#FFD700"      # 1위
+  silver: "#C0C0C0"    # 2위
+  bronze: "#CD7F32"    # 3위
+  primary: "#667eea"   # 4위 이하
+  secondary: "#764ba2"
+  text: "#FFFFFF"
+  background: "#000000"
+
+fonts:
+  bold: "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc"
+  regular: "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
+  emoji: "assets/fonts/NotoColorEmoji.ttf"
+
+layout:
+  badge_position: [60, 80]      # 좌상단
+  emoji_position: [920, 80]     # 우상단
+  score_position: [60, 220]     # 좌상단 아래
+  clip_area:
+    width: 900
+    height: 1600
+    position: [90, 160]
+  title_position: [540, 1650]   # 하단 중앙
+  description_position: [540, 1730]
+
+sizes:
+  badge_diameter: 120
+  emoji_size: 100
+  title_font_size: 70
+  description_font_size: 50
+  score_font_size: 40
+
+effects:
+  blur_radius: 50
+  vignette_opacity: 0.3
+  corner_radius: 20
+  shadow: "0px 10px 40px rgba(0,0,0,0.5)"
+
+animations:
+  intro_duration: 0.5
+  outro_duration: 0.3
+  transition: "crossfade"
+  transition_duration: 0.3

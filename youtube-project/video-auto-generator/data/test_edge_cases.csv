@@ -1,0 +1,6 @@
+rank,title,clip_path,emoji,score
+1,This is a very long title that might cause text overflow issues in the video overlay rendering system!!! 😱😱😱,downloads/user_clips/clip_1.mp4,🔥,8.5
+2,"Special chars: <>&'""\|{}[]`~!@#$%^&*()",downloads/user_clips/clip_2.mp4,🔥,8.5
+3,한글 제목도 잘 표시되나요? 🇰🇷,downloads/user_clips/clip_3.mp4,🔥,8.5
+4,Émojis 🎉🎊🎈🎁🎀🎂 everywhere!,downloads/user_clips/clip_4.mp4,🔥,8.5
+5,Untitled #5,downloads/user_clips/clip_5.mp4,🔥,8.5

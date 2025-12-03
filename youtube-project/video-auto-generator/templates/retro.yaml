@@ -1,0 +1,105 @@
+name: "Retro Style"
+description: "복고풍 80년대 스타일 템플릿"
+version: "1.0"
+
+# 폰트 설정
+fonts:
+  main: "assets/fonts/Pretendard-Bold.ttf"
+  title_size: 68
+  subtitle_size: 42
+
+# 색상 팔레트 (복고풍)
+colors:
+  rank1: "#FF6B35"  # 오렌지
+  rank2: "#F7931E"  # 골드
+  rank3: "#FDC830"  # 옐로우
+  default: "#4ECDC4"  # 터쿼이즈
+  title: "#FFFFFF"
+  subtitle: "#FF6B35"
+  border: "#000000"
+
+# 위치 설정
+positions:
+  title_x: 540
+  title_y: 125
+  subtitle_x: 540
+  subtitle_y: 195
+  ranking_x: 65
+  ranking_title_x: 185
+  ranking_start_y: 590
+  ranking_gap: 165
+
+# 스타일 설정
+style:
+  border_width: 5  # 굵은 레트로 스타일
+  vignette: true
+  blur_background: 10
+
+# 재생 설정
+playback:
+  order: "reverse"  # 5 -> 1 카운트다운
+  clip_duration: 8
+
+# Rail 설정
+rail:
+  enabled: true
+  x: 65
+  y_start: 590
+  gap: 165
+  font:
+    family: "assets/fonts/Pretendard-Bold.ttf"
+    size: 68
+  colors:
+    rank_1: "#FF6B35"
+    rank_2: "#F7931E"
+    rank_3: "#FDC830"
+    default: "#4ECDC4"
+  inactive_opacity: 0.35
+  active_stroke: 5
+  title_enabled: true
+  title_offset_x: 120
+  title_font_size: 44
+
+# 제목 설정
+title:
+  enabled: true
+  position:
+    x: 540
+    y: 1590
+  font:
+    family: "assets/fonts/Pretendard-Bold.ttf"
+    size: 54
+    color: "#FFFFFF"
+  background:
+    enabled: true
+    color: "#000000"
+    opacity: 0.75
+    border_radius: 15
+    padding: 42
+
+# 헤더 설정
+header:
+  enabled: true
+  main_title:
+    text: "⚡ TOP 5 ⚡"
+    font_size: 68
+    color: "#FF6B35"
+    position: [540, 82]
+    alignment: "center"
+    stroke_width: 5
+    stroke_color: "#000000"
+  subtitle:
+    text: "RETRO EDITION"
+    font_size: 42
+    color: "#FDC830"
+    position: [540, 162]
+    alignment: "center"
+    stroke_width: 4
+    stroke_color: "#000000"
+
+# 전역 설정
+global_settings:
+  background:
+    blur_strength: 10
+    vignette_enabled: true
+    vignette_opacity: 0.65

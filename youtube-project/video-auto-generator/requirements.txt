@@ -1,0 +1,23 @@
+# Core dependencies
+pillow>=10.2.0
+pandas>=2.1.4
+pyyaml>=6.0.1
+tqdm>=4.66.1
+click>=8.1.7
+
+# Optional - Narration (Cloud TTS)
+# google-cloud-texttospeech>=2.16.0
+
+# Optional - Beat Sync
+# librosa>=0.10.1
+
+# Optional - YouTube Upload
+# google-api-python-client>=2.115.0
+# google-auth-oauthlib>=1.2.0
+# google-auth-httplib2>=0.2.0
+
+# Optional - Web API (Phase 4)
+# fastapi>=0.109.0
+# uvicorn>=0.27.0
+# celery>=5.3.4
+# redis>=5.0.1

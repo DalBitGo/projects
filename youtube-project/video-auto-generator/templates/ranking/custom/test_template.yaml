@@ -1,0 +1,84 @@
+name: Custom Template
+description: User customized template
+aspect_ratio: '9:16'
+rail:
+  enabled: true
+  x: 60
+  y_start: 300
+  gap: 150
+  alignment: left
+  font:
+    family: /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+    size: 48
+    color: '#FFFFFF'
+  colors:
+    rank_1: '#FFD700'
+    rank_2: '#C0C0C0'
+    rank_3: '#CD7F32'
+    default: '#667eea'
+  inactive_opacity: 0.3
+  active_stroke: 4
+  effects:
+    border_width: 2
+    border_color: '#000000'
+title:
+  enabled: true
+  font:
+    family: /usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc
+    size: 60
+    color: '#FFFFFF'
+  position:
+    x: 540
+    y: 1650
+    alignment: center
+  background:
+    enabled: true
+    color: '#000000'
+    opacity: 0.7
+    border_radius: 20
+    padding:
+    - 20
+    - 40
+    - 20
+    - 40
+header:
+  enabled: true
+  main_title:
+    text: Ranking Random
+    font_size: 56
+    color: '#FFFFFF'
+    position:
+    - 540
+    - 80
+    alignment: center
+  subtitle:
+    text: Impressive Moments
+    font_size: 36
+    color: '#CCCCCC'
+    position:
+    - 540
+    - 150
+    alignment: center
+  background:
+    enabled: false
+    color: '#000000'
+    opacity: 0.5
+global:
+  resolution:
+    width: 1080
+    height: 1920
+  background:
+    blur_strength: 50
+    vignette_enabled: true
+    vignette_opacity: 0.3
+    color_overlay: '#00000000'
+  safe_area:
+    horizontal: 60
+    vertical: 100
+  clip_area:
+    width: 900
+    height: 1600
+    position: center
+playback:
+  order: reverse
+  clip_duration: 8

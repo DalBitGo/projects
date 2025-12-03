@@ -1,0 +1,105 @@
+name: "Neon Style"
+description: "네온 사인 느낌의 화려한 템플릿"
+version: "1.0"
+
+# 폰트 설정
+fonts:
+  main: "assets/fonts/Pretendard-Bold.ttf"
+  title_size: 70
+  subtitle_size: 45
+
+# 색상 팔레트 (네온 스타일)
+colors:
+  rank1: "#FF00FF"  # 네온 마젠타
+  rank2: "#00FFFF"  # 네온 시안
+  rank3: "#FFFF00"  # 네온 옐로우
+  default: "#39FF14"  # 네온 그린
+  title: "#FFFFFF"
+  subtitle: "#FF1493"
+  border: "#000000"
+
+# 위치 설정
+positions:
+  title_x: 540
+  title_y: 120
+  subtitle_x: 540
+  subtitle_y: 200
+  ranking_x: 60
+  ranking_title_x: 180
+  ranking_start_y: 600
+  ranking_gap: 160
+
+# 스타일 설정
+style:
+  border_width: 4  # 네온 글로우 효과용 두꺼운 테두리
+  vignette: true
+  blur_background: 15
+
+# 재생 설정
+playback:
+  order: "reverse"  # 5 -> 1 카운트다운
+  clip_duration: 8
+
+# Rail 설정
+rail:
+  enabled: true
+  x: 60
+  y_start: 600
+  gap: 160
+  font:
+    family: "assets/fonts/Pretendard-Bold.ttf"
+    size: 70
+  colors:
+    rank_1: "#FF00FF"
+    rank_2: "#00FFFF"
+    rank_3: "#FFFF00"
+    default: "#39FF14"
+  inactive_opacity: 0.3
+  active_stroke: 5
+  title_enabled: true
+  title_offset_x: 120
+  title_font_size: 45
+
+# 제목 설정
+title:
+  enabled: true
+  position:
+    x: 540
+    y: 1600
+  font:
+    family: "assets/fonts/Pretendard-Bold.ttf"
+    size: 55
+    color: "#FFFFFF"
+  background:
+    enabled: true
+    color: "#000000"
+    opacity: 0.8
+    border_radius: 25
+    padding: 40
+
+# 헤더 설정
+header:
+  enabled: true
+  main_title:
+    text: "🌟 TOP 5 🌟"
+    font_size: 70
+    color: "#FF00FF"
+    position: [540, 80]
+    alignment: "center"
+    stroke_width: 4
+    stroke_color: "#000000"
+  subtitle:
+    text: "NEON EDITION"
+    font_size: 40
+    color: "#00FFFF"
+    position: [540, 165]
+    alignment: "center"
+    stroke_width: 3
+    stroke_color: "#000000"
+
+# 전역 설정
+global_settings:
+  background:
+    blur_strength: 15
+    vignette_enabled: true
+    vignette_opacity: 0.6

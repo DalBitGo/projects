@@ -1,0 +1,43 @@
+# 기본 템플릿 설정
+name: "Default Template"
+description: "기본 랭킹 쇼츠 템플릿"
+
+# 재생 설정
+playback:
+  order: "reverse"  # "reverse" (5→1) 또는 "forward" (1→5)
+  clip_duration: 8  # 각 클립 길이 (초)
+
+# 폰트 설정
+fonts:
+  main: "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc"
+  title_size: 50
+  subtitle_size: 50
+  ranking_number_size: 60
+  ranking_title_size: 50
+
+# 색상 설정
+colors:
+  rank1: "yellow"      # 1위
+  rank2: "silver"      # 2위
+  rank3: "orange"      # 3위
+  rank4: "white"       # 4위
+  rank5: "white"       # 5위
+  title: "white"       # 상단 제목
+  subtitle: "yellow"   # 상단 부제목
+  border: "black"      # 테두리
+
+# 위치 설정
+positions:
+  title_x: 50
+  title_y: 30
+  subtitle_x: 50
+  subtitle_y: 90
+  ranking_x: 30           # 랭킹 번호 x 위치
+  ranking_title_x: 120    # 랭킹 제목 x 위치
+  ranking_start_y: 200    # 첫 번째 랭킹 y 위치
+  ranking_gap: 90         # 랭킹 간격
+
+# 스타일 설정
+style:
+  border_width: 3
+  text_shadow: true

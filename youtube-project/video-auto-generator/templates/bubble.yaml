@@ -1,0 +1,105 @@
+name: "Bubble Style"
+description: "귀여운 버블 느낌의 파스텔 템플릿"
+version: "1.0"
+
+# 폰트 설정
+fonts:
+  main: "assets/fonts/Pretendard-Bold.ttf"
+  title_size: 65
+  subtitle_size: 40
+
+# 색상 팔레트 (파스텔 버블)
+colors:
+  rank1: "#FFB6C1"  # 파스텔 핑크
+  rank2: "#B0E0E6"  # 파스텔 블루
+  rank3: "#F0E68C"  # 파스텔 옐로우
+  default: "#DDA0DD"  # 파스텔 퍼플
+  title: "#FFFFFF"
+  subtitle: "#FFB6C1"
+  border: "#FFFFFF"
+
+# 위치 설정
+positions:
+  title_x: 540
+  title_y: 120
+  subtitle_x: 540
+  subtitle_y: 190
+  ranking_x: 70
+  ranking_title_x: 190
+  ranking_start_y: 580
+  ranking_gap: 170
+
+# 스타일 설정
+style:
+  border_width: 3  # 부드러운 외곽선
+  vignette: true
+  blur_background: 20
+
+# 재생 설정
+playback:
+  order: "reverse"  # 5 -> 1 카운트다운
+  clip_duration: 8
+
+# Rail 설정
+rail:
+  enabled: true
+  x: 70
+  y_start: 580
+  gap: 170
+  font:
+    family: "assets/fonts/Pretendard-Bold.ttf"
+    size: 65
+  colors:
+    rank_1: "#FFB6C1"
+    rank_2: "#B0E0E6"
+    rank_3: "#F0E68C"
+    default: "#DDA0DD"
+  inactive_opacity: 0.4
+  active_stroke: 4
+  title_enabled: true
+  title_offset_x: 120
+  title_font_size: 42
+
+# 제목 설정
+title:
+  enabled: true
+  position:
+    x: 540
+    y: 1580
+  font:
+    family: "assets/fonts/Pretendard-Bold.ttf"
+    size: 52
+    color: "#FFFFFF"
+  background:
+    enabled: true
+    color: "#FFB6C1"
+    opacity: 0.7
+    border_radius: 35
+    padding: 45
+
+# 헤더 설정
+header:
+  enabled: true
+  main_title:
+    text: "✨ TOP 5 ✨"
+    font_size: 65
+    color: "#FFB6C1"
+    position: [540, 85]
+    alignment: "center"
+    stroke_width: 3
+    stroke_color: "#FFFFFF"
+  subtitle:
+    text: "Bubble Edition"
+    font_size: 38
+    color: "#B0E0E6"
+    position: [540, 160]
+    alignment: "center"
+    stroke_width: 2
+    stroke_color: "#FFFFFF"
+
+# 전역 설정
+global_settings:
+  background:
+    blur_strength: 20
+    vignette_enabled: true
+    vignette_opacity: 0.5
