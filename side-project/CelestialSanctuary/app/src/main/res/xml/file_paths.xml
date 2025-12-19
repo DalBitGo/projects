@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<paths>
-    <!-- 공유용 이미지 캐시 경로 -->
-    <cache-path
-        name="shared_images"
-        path="shared_images/" />
-</paths>
