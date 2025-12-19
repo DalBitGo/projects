@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 배경 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#1A0A2E"
+                android:centerColor="#2D1B4E"
+                android:endColor="#1A0A2E"
+                android:angle="135"
+                android:type="linear" />
+            <corners android:radius="16dp" />
+            <stroke
+                android:width="1dp"
+                android:color="#4D3D6B" />
+        </shape>
+    </item>
+
+    <!-- 수정구슬 아이콘 표시 영역 -->
+    <item
+        android:top="20dp"
+        android:left="20dp"
+        android:right="20dp"
+        android:bottom="40dp">
+        <shape android:shape="oval">
+            <gradient
+                android:startColor="#6B4C9A"
+                android:endColor="#3D2E5A"
+                android:angle="45"
+                android:type="linear" />
+        </shape>
+    </item>
+
+</layer-list>
